@@ -10,4 +10,7 @@ Este interactivo es un material de apoyo para el aprendizaje con números comple
     1. Conjugado de un número complejo, compando la parte real e imaginaria del complejo y su conjugado.
     2. Módulo o magnitud de un número complejo.
     3. Multipliación de un número complejo.
-
+*   MÓDULO CUADRADO, DIVISIÓN E ITERACIÓN DE i A LA N 
+    1. se multiplica a z con z conjugado para que el alumno comprenda que puede obtener el módulo cuadrado y usarlos para poder dividir complejos
+    2. se dividen dos numeros complejos, llevando al alumno por una construcción del algoritmo mediante el conjugado, donde se multiplica a la expresión a dividir por un uno disfrazado; en este paso debe usar lo aprendido para elproducto de dos números complejos, así como obtener lanorma al cuadrado de multiplicar a un complejo con su conjugado.
+    3. en esta última ventana el alumno comprobará que puede multiplicar al numero imaginario i por si mismo tantas veces como sea necesario (i^n , para toda n mayor igual a cero) lo cual le dará una tabla de recurrencia, también ver el caso para n negativas, cabe recalcar que n es un entero, lo cual le ayudará a entender la noción de 1/i^n. 
