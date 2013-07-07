@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>TITULO</title>
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+<body BGCOLOR="e0e4e8">
+<p align="center">
+<applet width=900 height=600
+        code="Descartes.class"
+        codebase="./"
+        archive="lib/Descartes5.jar"
+        MAYSCRIPT>
+   <param name="tama&ntilde;o" value="900x600">
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="deshacer" value="no">
+   <param name="Versi&oacute;n" value="5.09, 2013-06-11">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no ancho_este=150 ancho_oeste=150 alto=40">
+   <param name="E_01" value="tipo='R2' id='E2' fijo='s&iacute;' imagen='imagenes/textura-triangulos.png' despl_imagen='mosaico' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_02" value="tipo='R2' id='E4' x='25' y='70' ancho='450' alto='480' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='405860'">
+   <param name="E_03" value="tipo='R2' id='E1' x='480' y='70' ancho='400' alto='300' escala='130' despl_imagen='arr-izq' fondo='blanco' red='b8c4c8' red10='889498' ejes='405860' texto='405860' n&uacute;meros='s&iacute;'">
+   <param name="E_04" value="tipo='R2' id='E3' x='28' y='10' ancho='850' alto='50' despl_imagen='arr-izq' fondo='6efa02' red='no' red10='no' ejes='no' texto='405860'">
+   <param name="C_01" value="id='a' tipo='num&eacute;rico' regi&oacute;n='interior' espacio='E2' nombre='a' expresi&oacute;n='(60,560,55,30)' valor='1' incr='1' max='1' decimales='0' fijo='s&iacute;' visible='s&iacute;'">
+   <param name="C_02" value="id='b' tipo='num&eacute;rico' regi&oacute;n='interior' espacio='E2' nombre='b' expresi&oacute;n='(130,560,55,30)' decimales='0' fijo='s&iacute;' visible='s&iacute;' pos_mensajes='centro'">
+   <param name="C_03" value="id='n' tipo='num&eacute;rico' regi&oacute;n='interior' espacio='E2' nombre='n' expresi&oacute;n='(200,560,55,30)' valor='1' incr='1' min='1' max='10' decimales='0' fijo='s&iacute;' visible='s&iacute;'">
+   <param name="A_01" value="id='V1' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='10' expresi&oacute;n='V1[0]=0;V1[1]=0;V1[2]=0;V1[3]=0;V1[4]=0;V1[5]=0;V1[6]=0;V1[7]=0;V1[8]=0;V1[9]=0'">
+   <param name="A_02" value="id='V2' vector='s&iacute;' evaluar='una-sola-vez' tama&ntilde;o='10' expresi&oacute;n='V2[0]=0;V2[1]=0;V2[2]=0;V2[3]=0;V2[4]=0;V2[5]=0;V2[6]=0;V2[7]=0;V2[8]=0;V2[9]=0;'">
+   <param name="A_03" value="id='INICIO' algoritmo='s&iacute;' evaluar='una-sola-vez'">
+   <param name="A_04" value="id='CALCULOS' algoritmo='s&iacute;' evaluar='siempre' inicio='k=0' hacer='r=sqrt((a^2)+(b^2));Raizr=sqrt(r);;argumento=(a !=0)? atan(b/a):argumento;ARG=((argumento+(2*k*pi))/n);Preal=cos(ARG);Pimag=sen(ARG);;unidadr = cos((2*k*pi)/n);unidadim = sen((2*k*pi)/n);V1[k] = Raizr*unidadr ;V2[k] = Raizr*unidadim;k=k+1;' mientras='k&lt;n'">
+   <param name="G_01" value="espacio='E3' tipo='texto' expresi&oacute;n='[290,20]' texto='RAIZ DE LA UNIDAD' fuente='Monospaced,BOLD,18' fijo='s&iacute;'">
+   <param name="G_02" value="espacio='E4' tipo='texto' expresi&oacute;n='[5,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Times New Roman;}\f1\fs30\par \par \f2\fs34\i }' fijo='s&iacute;'">
+   <param name="G_03" value="espacio='E1' tipo='texto' expresi&oacute;n='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;}\f1\fs34}' fuente='Serif,PLAIN,15' fijo='s&iacute;'">
+   <param name="G_04" value="espacio='E1' tipo='ecuaci&oacute;n' expresi&oacute;n='x^2+y^2=1' ancho='2'">
+   <param name="G_05" value="espacio='E1' tipo='punto' color='azul' dibujar-si='n==1' expresi&oacute;n='(V1[0],V2[0])' rastro='azul' fuente='Monospaced,BOLD,18' fijo='s&iacute;' tama&ntilde;o='4'">
+   <param name="G_06" value="espacio='E1' tipo='punto' color='azul' dibujar-si='n==2' expresi&oacute;n='(V1[1],V2[1])' fuente='Monospaced,BOLD,18' fijo='s&iacute;' tama&ntilde;o='4'">
+   <param name="G_07" value="espacio='E1' tipo='pol&iacute;gono' dibujar-si='n==3' expresi&oacute;n='(V1[0],V2[0])(V1[1],V2[1])(V1[2],V2[2])(V1[0],V2[0])' relleno='ffff80'">
+   <param name="G_08" value="espacio='E1' tipo='pol&iacute;gono' dibujar-si='n==4' expresi&oacute;n='(V1[0],V2[0])(V1[1],V2[1])(V1[2],V2[2])(V1[3],V2[3])(V1[0],V2[0])' relleno='ffff80'">
+   <param name="G_09" value="espacio='E1' tipo='pol&iacute;gono' dibujar-si='n==5' expresi&oacute;n='(V1[0],V2[0])(V1[1],V2[1])(V1[2],V2[2])(V1[3],V2[3])(V1[4],V2[4])(V1[0],V2[0])' relleno='ffff80'">
+   <param name="G_10" value="espacio='E1' tipo='pol&iacute;gono' dibujar-si='n==6' expresi&oacute;n='(V1[0],V2[0])(V1[1],V2[1])(V1[2],V2[2])(V1[3],V2[3])(V1[4],V2[4])(V1[5],V2[5])(V1[0],V2[0])' relleno='ffff80'">
+   <param name="G_11" value="espacio='E1' tipo='pol&iacute;gono' dibujar-si='n==7' expresi&oacute;n='(V1[0],V2[0])(V1[1],V2[1])(V1[2],V2[2])(V1[3],V2[3])(V1[4],V2[4])(V1[5],V2[5])(V1[6],V2[6])(V1[0],V2[0])' relleno='ffff80'">
+   <param name="G_12" value="espacio='E1' tipo='pol&iacute;gono' dibujar-si='n==8' expresi&oacute;n='(V1[0],V2[0])(V1[1],V2[1])(V1[2],V2[2])(V1[3],V2[3])(V1[4],V2[4])(V1[5],V2[5])(V1[6],V2[6])(V1[7],V2[7])(V1[0],V2[0])' relleno='ffff80'">
+   <param name="G_13" value="espacio='E1' tipo='pol&iacute;gono' dibujar-si='n==8' expresi&oacute;n='(V1[0],V2[0])(V1[1],V2[1])(V1[2],V2[2])(V1[3],V2[3])(V1[4],V2[4])(V1[5],V2[5])(V1[6],V2[6])(V1[7],V2[7])(V1[0],V2[0])' relleno='ffff80'">
+   <param name="G_14" value="espacio='E1' tipo='pol&iacute;gono' dibujar-si='n==9' expresi&oacute;n='(V1[0],V2[0])(V1[1],V2[1])(V1[2],V2[2])(V1[3],V2[3])(V1[4],V2[4])(V1[5],V2[5])(V1[6],V2[6])(V1[7],V2[7])(V1[8],V2[8])(V1[0],V2[0])' relleno='ffff80'">
+   <param name="G_15" value="espacio='E1' tipo='pol&iacute;gono' dibujar-si='n==10' expresi&oacute;n='(V1[0],V2[0])(V1[1],V2[1])(V1[2],V2[2])(V1[3],V2[3])(V1[4],V2[4])(V1[5],V2[5])(V1[6],V2[6])(V1[7],V2[7])(V1[8],V2[8])(V1[9],V2[9])(V1[0],V2[0])' relleno='ffff80'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.com/" target="_blank">JAVA</a>.</font>
+</applet></p>
+</body>
+</html>
