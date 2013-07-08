@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>TITULO</title>
+	<script type='text/javascript' src='lib/descartes-min.js'></script>
+</head>
+<body BGCOLOR="e0e4e8">
+<p align="center">
+<applet width=900 height=600
+        code="Descartes.class"
+        codebase="./"
+        archive="lib/Descartes5.jar"
+        MAYSCRIPT>
+   <param name="tama&ntilde;o" value="900x600">
+   <param name="decimal_symbol" value=".">
+   <param name="antialias" value="s&iacute;">
+   <param name="deshacer" value="no">
+   <param name="Versi&oacute;n" value="5.09, 2013-06-11">
+   <param name="Idioma" value="espa&ntilde;ol">
+   <param name="Botones" value="cr&eacute;ditos=no config=no inicio=no limpiar=no ancho_este=150 ancho_oeste=150 alto=40">
+   <param name="E_01" value="tipo='R2' id='E2' despl_imagen='arr-izq' red='no' red10='no' ejes='no' texto='no'">
+   <param name="E_02" value="tipo='R2' id='E1' x='480' y='70' ancho='400' alto='300' escala='20' despl_imagen='arr-izq' fondo='blanco' red='grisClaro' red10='gris' ejes='grisObscuro' texto='no' n&uacute;meros='s&iacute;'">
+   <param name="E_03" value="tipo='R2' id='E3' x='25' y='10' ancho='850' alto='50' despl_imagen='arr-izq' fondo='6efa02' red='no' red10='no' ejes='no' texto='405860'">
+   <param name="E_04" value="tipo='R2' id='E4' x='25' y='70' ancho='450' alto='300' despl_imagen='arr-izq' fondo='blanco' red='no' red10='no' ejes='no' texto='405860'">
+   <param name="C_01" value="id='a' tipo='num&eacute;rico' regi&oacute;n='interior' espacio='E2' nombre='a' expresi&oacute;n='(100,570,60,30)' valor='1' incr='1' decimales='0' fijo='s&iacute;' visible='s&iacute;'">
+   <param name="C_02" value="id='b' tipo='num&eacute;rico' regi&oacute;n='interior' espacio='E2' nombre='b' expresi&oacute;n='(180,570,60,30)' valor='1' incr='1' decimales='0' fijo='s&iacute;' visible='s&iacute;' pos_mensajes='centro'">
+   <param name="A_01" value="id='INICIO' algoritmo='s&iacute;' evaluar='una-sola-vez'">
+   <param name="A_02" value="id='CALCULOS' algoritmo='s&iacute;' evaluar='siempre' hacer='modulo=sqrt(a^2+b^2);'">
+   <param name="G_01" value="espacio='E3' tipo='texto' expresi&oacute;n='[250,20]' texto='REPRESENTACI&Oacute;N GEOM&Eacute;TRICA' fuente='Monospaced,BOLD,18' fijo='s&iacute;'">
+   <param name="G_02" value="espacio='E4' tipo='texto' expresi&oacute;n='[20,20]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;\f3\fcharset0 Times New Roman;}\f1\fs26 La representaci\u243 n geom\u233 trica de los n\u250 meros complejos \par como puntos en un plano tiene sus inicios en los a\u241 os \par 1797 con el noruego Caspar Wessel y en 1806 con el \par suizo Jean-Robert Argand.\fs30\par \fs26 si tenemos al n\u250 mero complejo \f3\fs30\i{\*\mjaformula z=(a,b)}\f1\fs26\i0  de donde\par sabemos que \f3\fs30\i{\*\mjaformula Re(z)=a}\f1\fs26\i0  \f3\fs30\i{\*\mjaformula Im(z)=b)}\f1\fs26\i0  podemos asociar \par a la a este par ordenado como un punto en un plano xy\par al cual desde ahora llamaremos el PLANO COMPLEJO o \par PLANO \f3\fs30\i{\*\mjaformula z}\f1\fs26\i0 .\par Cada n\u250 mero \f3\fs30\i{\*\mjaformula z}\f1\fs26\i0  pintado en este plano, se representar\u225 \par como si fuera un sistema cartesiano de coordenadas.\par El n\u250 mero \f3\fs30\i{\*\mjaformula z}\f1\fs26\i0  puede representarse por un segmento \par rectilineo dirigido, o como un vector, que parte \par desde el origen hasta las coordenadas \f3\fs30\i{\*\mjaformula (a,b)}\f1\fs26\i0 .\par }' fuente='Monospaced,PLAIN,13' fijo='s&iacute;'">
+   <param name="G_03" value="espacio='E1' tipo='flecha' expresi&oacute;n='(0,0)(a,b)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;}\f1\fs30}' fuente='Serif,PLAIN,15' fijo='s&iacute;' ancho='2' ancho='2' punta='3'">
+   <param name="G_04" value="espacio='E1' tipo='segmento' color='880000ff' expresi&oacute;n='(0,0)(a,0)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Courier New;}\f1\fs22\i{\*\mjaformula{\expr a\decimals 0\fixed1}}\f2\fs30\i0}' fuente='Serif,ITALIC,11' fijo='s&iacute;' tama&ntilde;o='1' ancho='2'">
+   <param name="G_05" value="espacio='E1' tipo='segmento' color='880000ff' expresi&oacute;n='(a,0)(a,b)' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Times New Roman;\f2\fcharset0 Times New Roman;\f3\fcharset0 Courier New;}\f1\fs22\i  {\*\mjaformula{\expr b\decimals 0\fixed1}}\fs30 i\f3\fs30\i0}' fuente='Serif,ITALIC,11' fijo='s&iacute;' tama&ntilde;o='1' ancho='2'">
+   <param name="G_06" value="espacio='E2' tipo='texto' expresi&oacute;n='[150,380]' texto='{\rtf1\uc0{\fonttbl\f0\fcharset0 Times New Roman;\f1\fcharset0 Courier New;\f2\fcharset0 Courier New;\f3\fcharset0 Courier New;\f4\fcharset0 Courier New;\f5\fcharset0 Courier New;\f6\fcharset0 Courier New;\f7\fcharset0 Courier New;}\f1\fs26 Dibujemos el n\u250 mero complejo \fs30\b{\*\mjaformula z=(a,b)}\fs26\b0  como un par ordenado\par representandolo como un vector dentro del plano complejo xy\par \par \b{\*\mjaformula z=({\expr a\decimals 0\fixed1},{\expr b\decimals 0\fixed1})}\b0\par \par donde su parte real se representa en el eje x  \par \fs32\b{\*\mjaformula Re(z)=({\expr a\decimals 0\fixed1})}\b0\par \b{\*\mjaformula Im(z)=({\expr b\decimals 0\fixed1})}\fs26\b0\par y donde el m\u243 dulo de {\*\mjaformula z} es {\*\mjaformula |z|={\radical{\index 2}{\radicand (Re(z)){\supix 2}+(Im(z)){\supix 2}}}}\par              \par                             \fs36{\*\mjaformula |z|={\expr modulo\decimals 2\fixed1}}\fs30}' fuente='Monospaced,PLAIN,13' fijo='s&iacute;'">
+<font face="Arial" size="3">Esta unidad interactiva requiere la m&aacute;quina virtual de Java <a href="http://java.com/" target="_blank">JAVA</a>.</font>
+</applet></p>
+</body>
+</html>
