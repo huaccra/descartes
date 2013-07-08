@@ -22,10 +22,10 @@ Este interactivo es un material de apoyo para el aprendizaje con números comple
 *   07 REPRESENTACIÓN POLAR DE UN NÚMERO COMPLEJO (en construcción)
 *   08 CONJUGADO EN POLARES Y ROTACIÓNES AL MULTIPLICAR i (en construcción)
 *   09 SUMA Y RESTA EN REPRESENTACIÓN POLAR (en construcción)
-*   10 MULTIPLICACION EN POLARES DE COMPLEJOS (en construcción) 
-*   11 DIVISIÓN EN POLARES DE COMPLEJOS (en construcción)
-*   12 POTENCIA DE UNNÚMERO COMPLEJO FORMA POLAR (en construcción)
-*   13 FÓRMULA DE EULER PARA REPRESENTACIÓN POLAR
+*   10 MULTIPLICACIÓN EN POLARES  (en construcción) 
+*   11 DIVISIÓN EN POLARES (en construcción)
+*   12 POTENCIA DE UN NÚMERO COMPLEJO EN SU FORMA POLAR (en construcción)
+*   13 FÓRMULA DE EULER PARA REPRESENTACIÓN POLAR 
 *   14 RAÍZ N-ÉSIMA DE LA UNIDAD
     1. En este escenario, se muestra el algoritmo para calcular la raíz n-ésima de cualquier complejo, y se le aplica al complejo unitario, el alumno tendrá el aprendizaje significativo al interactuar con la parte gráfica y con los calculos al momento de pulsar el control n, que determian las raices.
     2. Se pone un escenario donde se calcula la raíz décima de 1 y se dibujan los poligonos en el círculo unitario.
